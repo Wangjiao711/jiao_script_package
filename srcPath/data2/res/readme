@@ -1,0 +1,1 @@
+pic_script.py中的video2frame(mp4Path, framePath)的framePath的路径，该路径存放从视频中抽取的图片
