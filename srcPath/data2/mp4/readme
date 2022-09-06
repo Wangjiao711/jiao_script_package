@@ -1,1 +1,1 @@
-pic_script.py中的video2frame(mp4Path, framePath)的mp4Path
+pic_script.py中的video2frame(mp4Path, framePath)的mp4Path，该路径中存放一个".mp4"文件
