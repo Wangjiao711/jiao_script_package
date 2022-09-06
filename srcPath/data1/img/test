@@ -1,9 +1,0 @@
-jpgPath="D:/DataSet/bfzhao/20220824/img_vis/7361f03ff080a9c687bc97bd31c4b98f-2aaab569b69cb4e3b8459a9377d2abbe44d9631a.jpg"
-    src=cv2.imread(jpgPath)
-    x=src.shape[1]/2
-    y=src.shape[0]/2
-    dst0=rotate_pic(src, 45, (x,y))
-    dst1=cv2AddChineseText(src, "王姣姣", position=(10, 10), textColor=(0, 255, 0), textSize=30)
-    srcPath="D:/DataSet/bfzhao/srcPath/data1/img/"
-    videoname="D:/DataSet/bfzhao/srcPath/data1/res/video.mp4"
-    frame2video(srcPath, videoname)
